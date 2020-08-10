@@ -27,6 +27,11 @@ Vue.use(VueRouter)
         path: '/antView',
         name: 'antView',
         component: () => import('../views/antView')
+      },
+      {
+        path: '/table',
+        name: 'table',
+        component: () => import('../views/Nav1/Table')
       }
     ]
   },

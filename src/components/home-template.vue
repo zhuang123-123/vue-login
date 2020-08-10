@@ -64,6 +64,8 @@ export default {
 }
 .homeTemplate .main .rightCon {
     float: left;
+    width: 80%;
+    
 }
 
 

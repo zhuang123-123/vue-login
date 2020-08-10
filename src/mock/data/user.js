@@ -21,4 +21,4 @@ for (let i = 0; i < 86; i++) {
   }));
 }
 
-export {LoginUsers}
+export {LoginUsers, Users}

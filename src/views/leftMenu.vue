@@ -30,7 +30,7 @@
                     Navigation One
                 </template>
                 <MenuGroup title="Item 1">
-                    <MenuItem name="1-1">Option 1</MenuItem>
+                    <MenuItem name="1-1"><router-link to="/table">Table</router-link></MenuItem>
                     <MenuItem name="1-2"><router-link to="/antView">ant-view</router-link></MenuItem>
                 </MenuGroup>
                 <MenuGroup title="Item 2">
