@@ -43,7 +43,7 @@
             <el-form :model="editForm" label-width="80px" :rules="editFormRules" ref="editForm">
                 <el-form-item label="姓名" prop="name">
                     <el-input v-model="editForm.name" auto-complete="off"></el-input>
-                </el-form-item>
+                </el-form-item> 
                 <el-form-item label="性别">
                     <el-radio-group v-model="editForm.sex">
                         <el-radio class="radio" :label="1">男</el-radio>
