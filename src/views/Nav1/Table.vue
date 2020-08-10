@@ -66,7 +66,7 @@
             </div>
         </el-dialog>
 
-        <!-- 新增界面 -->
+        <!-- 新增界面 -->  
         <el-dialog title="新增" v-model="addFormVisible" :close-on-click-modal="false">
             <el-form :model="addForm" label-width="80px" :rules="addFormRules" ref="addForm">
                 <el-form-item label="姓名" prop="name">
